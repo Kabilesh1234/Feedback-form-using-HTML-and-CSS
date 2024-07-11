@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+ 
+    <style>
+        img{
+            padding-left: 50px;
+        }
+        .main{
+            padding-left: 32.5%;
+        }
+        .maindiv{
+            display: flex;
+            input{
+                height: 20px;
+                background-color:aliceblue;
+                border: none;
+            }
+        }
+        .checkright{
+            margin-left: 40px;
+        }
+        .email{
+            input{
+                height: 20px;
+                background-color:aliceblue;
+                border: none;
+                width: 390px;
+            }
+        }
+        .check{
+            display: flex;
+        }
+        .sname{
+            margin-left: 40px;
+        }
+
+        button{
+            height: 60px;
+            width: 400px;
+            background-color: orange;
+            border-radius: 10px;
+            color: white;
+            font-weight: bolder;
+        }
+        .star-rating {
+      display: inline-block;
+      font-size: 0; 
+    }
+
+    .star-rating::before {
+      content: '\2605'; 
+      font-size: 24px; 
+      color: gold; 
+    }
+
+    .star-rating.inactive::before {
+      color: lightgray; 
+    }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <img src="download (1).jpg" alt="que mira bobo" width="60px">
+        <br><br><br>
+        <div class="maindiv">
+            <div >
+                <p>FirstName*</p><input type="text">
+            </div>
+            <div class="sname">
+                <p>SecondName*</p><input type="text">
+            </div>
+        </div>
+        <div class="email">
+            <p>Email Address*</p><input type="text">
+        </div>
+        <div class="star-rating">
+            <span class="star-rating"></span>
+            <span class="star-rating"></span>
+            <span class="star-rating"></span>
+            <span class="star-rating inactive"></span>
+            <span class="star-rating inactive"></span></div>
+        <h4>Was our representative (check all that apply):</h4>
+        <div class="check"> 
+            <div>
+                <input type="checkbox">Professional and courteous?<br><br>
+                <input type="checkbox">Knowledgable?<br><br>
+                <input type="checkbox">Friendly?<br><br>
+                <input type="checkbox">Efficient?
+            </div>
+            <div class="checkright">
+                <input type="checkbox">Patient?<br><br>
+                <input type="checkbox">Warm and respectful?<br><br>
+                <input type="checkbox">Clear and direct?<br><br>
+            </div>
+        </div><br><br><br>
+        <div class="submit">
+            <button>Submit feedback</button>
+        </div>
+    </div>
+
+    
+</body>
+</html>
